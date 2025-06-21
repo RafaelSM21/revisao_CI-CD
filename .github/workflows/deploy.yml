@@ -14,5 +14,4 @@ jobs:
         
       - name: Deploy to Firebase
         run: |
-          cd frontend
           firebase deploy --project ${{ secrets.FIREBASE_PROJECT_ID }} --token ${{ secrets.FIREBASE_TOKEN }} --only hosting
