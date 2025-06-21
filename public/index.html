@@ -12,18 +12,15 @@
 <body>
   <h1>PixelTrack - Ranking eSports</h1>
   <div id="ranking-container">
-    <!-- Dados serão carregados via JavaScript -->
   </div>
 
   <script>
-    // Simulação de dados
     const jogadores = [
       { id: "p1", name: "Player1", score: 150 },
       { id: "p2", name: "Player2", score: 230 },
       { id: "p3", name: "Player3", score: 95 }
     ];
 
-    // Exibe jogadores
     function renderJogadores() {
       const container = document.getElementById('ranking-container');
       container.innerHTML = '';
@@ -39,7 +36,6 @@
       });
     }
 
-    // Inicialização
     document.addEventListener('DOMContentLoaded', renderJogadores);
   </script>
 </body>
