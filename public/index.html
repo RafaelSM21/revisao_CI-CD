@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelTrack - Painel eSports</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+    .player-card { border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h1>PixelTrack - Ranking eSports</h1>
+  <div id="ranking-container">
+    <!-- Dados serão carregados via JavaScript -->
+  </div>
+
+  <script>
+    // Simulação de dados
+    const jogadores = [
+      { id: "p1", name: "Player1", score: 150 },
+      { id: "p2", name: "Player2", score: 230 },
+      { id: "p3", name: "Player3", score: 95 }
+    ];
+
+    // Exibe jogadores
+    function renderJogadores() {
+      const container = document.getElementById('ranking-container');
+      container.innerHTML = '';
+      
+      jogadores.forEach(jogador => {
+        const card = document.createElement('div');
+        card.className = 'player-card';
+        card.innerHTML = `
+          <h3>${jogador.name}</h3>
+          <p>Pontos: ${jogador.score}</p>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // Inicialização
+    document.addEventListener('DOMContentLoaded', renderJogadores);
+  </script>
+</body>
+</html>
