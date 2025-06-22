@@ -70,7 +70,7 @@ npm test -- --coverage
 
 Saída do teste:
 
-![test](assets/image2.png)
+![test](assets/image4.png)
 
 # Tarefa 4: Monitoramento com Docker
 
@@ -82,8 +82,4 @@ Saída do teste:
 
 - Arquivo de configuração: `firebase.json`
 - Workflow GitHub Actions responsável pelo deploy: `deploy.yml`
-
-## Site em Produção
-
-- URL: [https://revisaocicd.web.app](https://revisaocicd.web.app)
 - Deploy automático acionado na branch `main`
