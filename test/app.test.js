@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../dist/app').default;
+const app = require('../src/app.js').default;
 
 describe('Testes da API', () => {
   test('GET /converter/50 retorna 500', async () => {
