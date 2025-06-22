@@ -45,7 +45,7 @@
 
 1. Checkout do código
 2. Configuração do Node.js
-3. Instalação de dependências com `npm ci`
+3. Instalação de dependências com `npm i`
 4. Execução de testes com `npm test`
 
 **Alertas:**
