@@ -68,6 +68,8 @@
 npm test -- --coverage
 ```
 
+Saída do teste:
+
 ![test](assets/image2.png)
 
 # Tarefa 4: Monitoramento com Docker
