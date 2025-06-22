@@ -29,13 +29,13 @@
 
 **Fluxograma Completo:**
 
-*(Insira aqui o link ou a imagem do fluxograma)*
+![Fluxograma](assets/image3.png)
 
 ---
 
 ## Tarefa 2: CI com GitHub Actions
 
-### Workflow de CI (`.github/workflows/ci.yml`)
+### Workflow de CI e Deploy (`.github/workflows/ci.yml`)
 
 **Explicação:**
 
@@ -52,7 +52,7 @@
 
 - Comentário automático no PR em caso de falha
 
-![Exemplo de CI Success](https://prints/ci_success.png)
+![CI](assets/image.png)
 
 ---
 
@@ -67,6 +67,10 @@
 ```bash
 npm test -- --coverage
 ```
+
+Saída do teste:
+
+![test](assets/image2.png)
 
 # Tarefa 4: Monitoramento com Docker
 
@@ -83,5 +87,3 @@ npm test -- --coverage
 
 - URL: [https://revisaocicd.web.app](https://revisaocicd.web.app)
 - Deploy automático acionado na branch `main`
-
-![Log de Deploy](https://prints/deploy_log.png)
