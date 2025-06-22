@@ -1,4 +1,4 @@
-const { converterPontos } = require('../dist/converter');
+const { converterPontos } = require('../src/converter.ts');
 
 describe('Função converterPontos', () => {
   test('Converte valores positivos corretamente', () => {
